@@ -94,6 +94,4 @@ hook.Add( "PlayerSay", "OnPlayerSay", function(player, text)
 			return ""
 		end
 	end
-	
-	return text
 end)
